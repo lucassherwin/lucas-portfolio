@@ -1,10 +1,51 @@
 import React from 'react'
+// import '../card.css';
 
 export default function Projects() {
     return (
         <div>
-            <h1>Projects Page</h1>
-            <h2>Completed Projects</h2>
+            <div>
+                <h1>Completed Projects</h1>
+                {/* the section will be the main container for the card list */}
+                <section class='card-list'>
+                    {/* each card will be an article */}
+                    <article class='card'>
+                        <header class='card-header'>
+                            <h1><a href='https://trivia-game-f5a86.web.app/' target="_blank" rel='noreferrer'>Trivia Game</a></h1>
+                            <p><a href='https://github.com/lucassherwin/trivia-game--frontend' target="_blank" rel='noreferrer'>Frontend</a> | <a href='https://github.com/lucassherwin/trivia-game--backend' target="_blank" rel='noreferrer'>Backend</a>
+                            </p>
+                        </header>
+                    </article>
+
+                    <article class='card'>
+                        <header class='card-header'>
+                            <p>Project 2</p>
+                        </header>
+                    </article>
+
+                    <article class='card'>
+                        <header class='card-header'>
+                            <p>Project 3</p>
+                        </header>
+                    </article>
+
+                    <article class='card'>
+                        <header class='card-header'>
+                            <p>Project 4</p>
+                        </header>
+                    </article>
+
+                    <article class='card'>
+                        <header class='card-header'>
+                            <p>Project 5</p>
+                        </header>
+                    </article>
+                </section>
+            </div>
+            
+
+
+            {/* <h2>Completed Projects</h2>
             <ul>
                 <li>
                     <a href='https://trivia-game-f5a86.web.app/' target="_blank" rel='noreferrer'>Trivia Game </a> <br />
@@ -66,7 +107,7 @@ export default function Projects() {
                     - Add functionality for user to set up an appointment<br />
                     - Fill out content on site with images and descriptions of products and services<br />
                 </li>
-            </ul>
+            </ul> */}
         </div>
     )
 }

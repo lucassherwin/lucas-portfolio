@@ -5,6 +5,8 @@ import Blog from './components/Blog.js';
 import Home from './components/Home.js';
 import Navbar from './components/Navbar.js';
 import Projects from './components/Projects.js';
+import './App.css';
+import './card.css';
 
 export class App extends Component {
   render() {
