@@ -87,6 +87,7 @@ export default function Projects() {
                                 <li>This list is saved in a database</li>
                                 <li>User can also search for breweries</li>
                                 <li>All beer and brewery information comes from an outside API</li>
+                                <li>I am currently working on getting this hosted</li>
                             </ul>
                         </header>
                     </article>
