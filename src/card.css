@@ -1,7 +1,10 @@
+/* cards idea and code from this video */
+/* https://www.youtube.com/watch?v=29deL9MFfWc */
+
 .card-list {
     display: flex;
     padding: 3rem;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 
 /* make each card a column within the card-list row */
