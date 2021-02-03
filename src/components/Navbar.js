@@ -1,6 +1,6 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
 import { Link } from "react-scroll";
+import styled from 'styled-components';
 
 export default function Navbar() {
     const link = {
@@ -12,15 +12,17 @@ export default function Navbar() {
         color: 'white',
     }
 
+    const Navbar = styled.nav`
+        position: fixed;
+    `;
+
     return (
-        <nav className='navbar'>
-            <div className='nav-content'>
-                <Link activeClass='active' to="home" spy={true} style={link} smooth={true} duration={1000}>Home</Link>
-                <Link activeClass='active' to="about" spy={true} style={link} smooth={true} duration={1000}>About</Link>
-                <Link activeClass='active' to="projects" spy={true} style={link} smooth={true} duration={1000}>Projects</Link>
-                <Link activeClass='active' to="blog" spy={true} style={link} smooth={true} duration={1000}>Blog</Link>
-            </div>
-        </nav>
+        <Navbar className='navbar'>
+            <Link activeClass='active' to="home" spy={true} style={link} smooth={true} duration={1000}>Home</Link>
+            <Link activeClass='active' to="about" spy={true} style={link} smooth={true} duration={1000}>About</Link>
+            <Link activeClass='active' to="projects" spy={true} style={link} smooth={true} duration={1000}>Projects</Link>
+            <Link activeClass='active' to="blog" spy={true} style={link} smooth={true} duration={1000}>Blog</Link>
+        </Navbar>
     )
 }
 
