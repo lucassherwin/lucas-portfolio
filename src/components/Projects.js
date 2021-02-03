@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Projects() {
     return (
-        <div>
+        <div id='projects'>
             <div>
                 <div>
                     <h1>Under Construction</h1>
