@@ -4,26 +4,39 @@ import SpeedIcon from '@material-ui/icons/Speed';
 import ComputerIcon from '@material-ui/icons/Computer';
 import styled from 'styled-components';
 
+const Wrapper = styled.div`
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+`;
+
+const BioContainer = styled.div`
+  padding: 0 4vw 0 4vw;
+
+`;
+
+const BioTitle = styled.h2`
+  text-align: center;
+`;
+
+const BioText = styled.p`
+  text-align: center;
+  line-height: 5.5vh
+`;
+
+const AboutContainer = styled.div`
+  margin-top: 2vh;
+`;
+
+const AboutHeader = styled.h1`
+  text-align: center;
+  margin-bottom: 5vh;
+`;
+
 export default function About() {
-  const Wrapper = styled.div`
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  `;
-
-  const BioContainer = styled.div`
-  
-  `;
-
-  const BioTitle = styled.h2`
-  `;
-
-  const BioText = styled.p`
-  `;
-
   return (
-    <div id='about'>
-      <h1>About Me</h1>
+    <AboutContainer id='about'>
+      <AboutHeader>About</AboutHeader>
       <Wrapper>
         <div id='perf'>
           <SpeedIcon />
@@ -58,6 +71,6 @@ export default function About() {
           web apps using Python.
         </BioText>
       </BioContainer>
-    </div>
+    </AboutContainer>
   )
 }
