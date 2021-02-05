@@ -59,7 +59,7 @@ export default function About() {
         <BioText>
           Like many others, my coding journey began at a young age being interested in computers.
           I started programming early in high school, and eventually became a Computer Science major at Marist College. 
-          After two years at Marist, I transferred to Boston Universtiy. I continued my CS education at BU until I decided it was time to make a change. 
+          After two years at Marist, I transferred to Boston University. I continued my computer science education at BU until I decided it was time to make a change. 
           The traditional Computer Science education path wasn't a good fit for me and my learning style, so I decided it was time to make a change, and dropped out of college.
           This allowed me to pursue web development by attending the Flatiron School, an accredited coding bootcamp, with a curriculum focused on Full Stack Development.
           At Flatiron, I was able to build my skills in a variety of web technologies. I built RESTful APIs using Ruby on Rails and PostgreSQL, and responsive front end applications

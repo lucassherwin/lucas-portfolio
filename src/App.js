@@ -10,9 +10,14 @@ import './App.css';
 import './card.css';
 
 export class App extends Component {
+  // componentDidMount(){
+  //   alert('Please excuse the look of this site! It is currently under development, however all projects and info are recent and up to date!');
+  // }
+  
   render() {
     return (
       <div>
+      {alert('Please excuse the look of this site! It is currently under development, however all projects and info are recent and up to date!')}
         <Navbar />
         <HomePage />
         <About />
