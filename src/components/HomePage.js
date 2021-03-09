@@ -30,7 +30,7 @@ export default function HomePage() {
     <Home id='home'>
       <Welcome>
         <p>Hello, I'm Lucas Sherwin.</p>
-        <p>I am a Full Stack Web Developer.</p>
+        <p>I am a Full Stack Developer.</p>
         <Button onClick={() => scroller.scrollTo('about', {smooth: true, duration: 1000})}>See my work</Button>
       </Welcome>
     </Home>
