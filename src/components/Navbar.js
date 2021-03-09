@@ -4,7 +4,8 @@ import styled from 'styled-components';
 
 export default function Navbar() {
   const Nav = styled.nav`
-    position: fixed;
+    /* position: absolute; */
+    /* top: 0; */
   `;
   
   const link = {

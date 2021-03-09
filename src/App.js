@@ -12,11 +12,11 @@ import './card.css';
 const App = () => {
   return (
     <div>
-        <Navbar />
-        <HomePage />
-        <About />
-        <Projects />
-        <Blog />
+      {/* <Navbar /> */}
+      <HomePage />
+      <About />
+      <Projects />
+      <Blog />
     </div>
   );
 }
