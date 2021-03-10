@@ -9,11 +9,11 @@ body {
   font-size: 21px;
   text-align: center; */
 
-  -webkit-animation: hellofadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: hellofadein 2s; /* Firefox < 16 */
-      -ms-animation: hellofadein 2s; /* Internet Explorer */
-       -o-animation: hellofadein 2s; /* Opera < 12.1 */
-          animation: hellofadein 2s;
+  -webkit-animation: hellofadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: hellofadein 3s; /* Firefox < 16 */
+      -ms-animation: hellofadein 3s; /* Internet Explorer */
+       -o-animation: hellofadein 3s; /* Opera < 12.1 */
+          animation: hellofadein 3s;
 }
 
 @keyframes hellofadein {
@@ -52,11 +52,11 @@ body {
   text-align: center; */
 
   
-  -webkit-animation: namefadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: namefadein 2s; /* Firefox < 16 */
-  -ms-animation: namefadein 2s; /* Internet Explorer */
-  -o-animation: namefadein 2s; /* Opera < 12.1 */
-  animation: namefadein 2s;
+  -webkit-animation: namefadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: namefadein 3s; /* Firefox < 16 */
+  -ms-animation: namefadein 3s; /* Internet Explorer */
+  -o-animation: namefadein 3s; /* Opera < 12.1 */
+  animation: namefadein 3s;
 }
 
 @keyframes namefadein {
@@ -100,11 +100,11 @@ body {
   font-size: 21px;
   text-align: center; */
 
-  -webkit-animation: fsfadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fsfadein 2s; /* Firefox < 16 */
-      -ms-animation: fsfadein 2s; /* Internet Explorer */
-       -o-animation: fsfadein 2s; /* Opera < 12.1 */
-          animation: fsfadein 2s;
+  -webkit-animation: fsfadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fsfadein 3s; /* Firefox < 16 */
+      -ms-animation: fsfadein 3s; /* Internet Explorer */
+       -o-animation: fsfadein 3s; /* Opera < 12.1 */
+          animation: fsfadein 3s;
 }
 
 @keyframes fsfadein {
@@ -153,11 +153,11 @@ body {
   font-size: 21px;
   text-align: center; */
 
-  -webkit-animation: buttonfadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: buttonfadein 2s; /* Firefox < 16 */
-      -ms-animation: buttonfadein 2s; /* Internet Explorer */
-       -o-animation: buttonfadein 2s; /* Opera < 12.1 */
-          animation: buttonfadein 2s;
+  -webkit-animation: buttonfadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: buttonfadein 3s; /* Firefox < 16 */
+      -ms-animation: buttonfadein 3s; /* Internet Explorer */
+       -o-animation: buttonfadein 3s; /* Opera < 12.1 */
+          animation: buttonfadein 3s;
 }
 
 @keyframes buttonfadein {
