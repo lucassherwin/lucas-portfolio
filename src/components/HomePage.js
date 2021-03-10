@@ -29,7 +29,7 @@ export default function HomePage() {
         <Text className='helloFade'>Hello</Text>
         <Text className='nameFade'>I'm <span style={{color: 'red'}}>Lucas Sherwin.</span></Text>
         <Text className='fsFade'>I'm a Full Stack Developer.</Text>
-        <Button style={{height: 55, color: 'red', border: '1px solid red'}} variant='outlined' color='primary' onClick={() => scroller.scrollTo('about', {smooth: true, duration: 1000})}>See my work</Button>
+        <Button className='buttonFade' style={{height: 55, color: 'red', border: '1px solid red'}} variant='outlined' color='primary' onClick={() => scroller.scrollTo('about', {smooth: true, duration: 1000})}>See my work</Button>
       </Welcome>
     </Home>
   )

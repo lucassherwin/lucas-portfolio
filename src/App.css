@@ -3,80 +3,204 @@ body {
   margin: 0;
 }
 
+/* fadein code from https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load */
 .helloFade {
-  margin-top: 25px;
+  /* margin-top: 25px;
   font-size: 21px;
-  text-align: center;
+  text-align: center; */
 
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
-          animation: fadein 2s;
+  -webkit-animation: hellofadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: hellofadein 2s; /* Firefox < 16 */
+      -ms-animation: hellofadein 2s; /* Internet Explorer */
+       -o-animation: hellofadein 2s; /* Opera < 12.1 */
+          animation: hellofadein 2s;
 }
+
+@keyframes hellofadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes hellofadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes hellofadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes hellofadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes hellofadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 
 .nameFade {
   /* margin-top: 25px;
   font-size: 21px;
   text-align: center; */
 
+  
   -webkit-animation: namefadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: namefadein 2s; /* Firefox < 16 */
-      -ms-animation: namefadein 2s; /* Internet Explorer */
-       -o-animation: namefadein 2s; /* Opera < 12.1 */
-          animation: namefadein 2s;
-}
-
-.fsFade {
-  margin-top: 25px;
-  font-size: 21px;
-  text-align: center;
-
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
-          animation: fadein 2s;
-}
-
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-  /* 0% { opacity: 0; }
-  50% { opacity: 0; }
-  100% { opacity: 1; } */
-
+  -moz-animation: namefadein 2s; /* Firefox < 16 */
+  -ms-animation: namefadein 2s; /* Internet Explorer */
+  -o-animation: namefadein 2s; /* Opera < 12.1 */
+  animation: namefadein 2s;
 }
 
 @keyframes namefadein {
-  /* from { opacity: 0; }
-  to   { opacity: 1; } */
   0% { opacity: 0; }
-  50% { opacity: 0.25; }
+  25% { opacity: 0; }
   100% { opacity: 1; }
 
 }
 
 /* Firefox < 16 */
-@-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+@-moz-keyframes namefadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+@-webkit-keyframes namefadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 /* Internet Explorer */
-@-ms-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+@-ms-keyframes namefadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 /* Opera < 12.1 */
-@-o-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+@-o-keyframes namefadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.fsFade {
+  /* margin-top: 25px;
+  font-size: 21px;
+  text-align: center; */
+
+  -webkit-animation: fsfadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fsfadein 2s; /* Firefox < 16 */
+      -ms-animation: fsfadein 2s; /* Internet Explorer */
+       -o-animation: fsfadein 2s; /* Opera < 12.1 */
+          animation: fsfadein 2s;
+}
+
+@keyframes fsfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fsfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fsfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fsfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fsfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.buttonFade {
+  /* margin-top: 25px;
+  font-size: 21px;
+  text-align: center; */
+
+  -webkit-animation: buttonfadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: buttonfadein 2s; /* Firefox < 16 */
+      -ms-animation: buttonfadein 2s; /* Internet Explorer */
+       -o-animation: buttonfadein 2s; /* Opera < 12.1 */
+          animation: buttonfadein 2s;
+}
+
+@keyframes buttonfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  75% { opacity: 0; }
+  100% { opacity: 1; }
+
+}
+
+/* Firefox < 16 */
+@-moz-keyframes buttonfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  75% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes buttonfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  75% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes buttonfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  75% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes buttonfadein {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  75% { opacity: 0; }
+  100% { opacity: 1; }
 }
