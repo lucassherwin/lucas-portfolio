@@ -34,8 +34,25 @@ const AboutHeader = styled.h1`
 `;
 
 const AboutItem = styled.div`
-  text-align: center;
+  /* text-align: center; */
 `;
+
+// const IconContainer = styled.div`
+//   float: left;
+// border-right: 30px solid #6C6;
+// border-top: 52px solid transparent;
+// border-bottom: 52px solid transparent;
+
+// float: left;
+// width: 60px;
+// height: 104px;
+// background-color: #6C6;
+
+// float: left;
+// border-left: 30px solid #6C6;
+// border-top: 52px solid transparent;
+// border-bottom: 52px solid transparent;
+// `;
 
 export default function About() {
   return (
@@ -43,17 +60,23 @@ export default function About() {
       <AboutHeader>About</AboutHeader>
       <Wrapper>
         <AboutItem id='perf'>
-          <SpeedIcon />
+          <div className='hexagon'>
+            <SpeedIcon />
+          </div>
           <p>Performance</p>
           <p>Emphasis on fast load times and seamless user interaction.</p>
         </AboutItem>
         <AboutItem id='design'>
-          <BrushIcon />
+          <div className='hexagon'>
+            <BrushIcon />
+          </div>
           <p>Design</p>
           <p>Intuitive designs that are simple and easy to use.</p>
         </AboutItem>
         <AboutItem id='responsive'>
-          <ComputerIcon />
+          <div className='hexagon'>
+            <ComputerIcon />
+          </div>
           <p>Responsive</p>
           <p>Responsive layouts built to last.</p>
         </AboutItem>
@@ -61,18 +84,9 @@ export default function About() {
       <BioContainer>
         <BioTitle>Hi, I'm Lucas. Nice to meet you.</BioTitle>
         <BioText>
-          Like many others, my coding journey began at a young age being interested in computers.
-          I started programming early in high school, and eventually became a Computer Science major at Marist College. 
-          After two years at Marist, I transferred to Boston University. I continued my computer science education at BU until I decided it was time to make a change. 
-          The traditional Computer Science education path wasn't a good fit for me and my learning style, so I decided it was time to make a change, and dropped out of college.
-          This allowed me to pursue web development by attending the Flatiron School, an accredited coding bootcamp, with a curriculum focused on Full Stack Development.
-          At Flatiron, I was able to build my skills in a variety of web technologies. I built RESTful APIs using Ruby on Rails and PostgreSQL, and responsive front end applications
-          using HTML, CSS, JavaScript, and ReactJS. I built these projects both individually and collaboratively in small groups, in person and remote, using Git.
-        </BioText>
-        <BioText>
-          Since graduating from Flatiron, I have continued my web development journey by taking on a variety of personal projects. I have continued my education by
-          using online courses to learn a variety of new techonologies. Most recently, I have been learning React Native to develop mobile applications, and Django, to develop
-          web apps using Python.
+          I am a full-stack software engineer with a background in computer science. I recently graduated from the Flatiron School's Full Stack Development 
+          program and am looking for my first full-time job. Prior to Flatiron, I was a computer science major at Boston University, before leaving school in my junior year
+          to pursure an alternate approach to my education. 
         </BioText>
       </BioContainer>
     </AboutContainer>
