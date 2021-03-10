@@ -5,10 +5,6 @@ body {
 
 /* fadein code from https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load */
 .helloFade {
-  /* margin-top: 25px;
-  font-size: 21px;
-  text-align: center; */
-
   -webkit-animation: hellofadein 3s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: hellofadein 3s; /* Firefox < 16 */
       -ms-animation: hellofadein 3s; /* Internet Explorer */
@@ -47,11 +43,6 @@ body {
 
 
 .nameFade {
-  /* margin-top: 25px;
-  font-size: 21px;
-  text-align: center; */
-
-  
   -webkit-animation: namefadein 3s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: namefadein 3s; /* Firefox < 16 */
   -ms-animation: namefadein 3s; /* Internet Explorer */
@@ -96,10 +87,6 @@ body {
 
 
 .fsFade {
-  /* margin-top: 25px;
-  font-size: 21px;
-  text-align: center; */
-
   -webkit-animation: fsfadein 3s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fsfadein 3s; /* Firefox < 16 */
       -ms-animation: fsfadein 3s; /* Internet Explorer */
@@ -149,10 +136,6 @@ body {
 
 
 .buttonFade {
-  /* margin-top: 25px;
-  font-size: 21px;
-  text-align: center; */
-
   -webkit-animation: buttonfadein 3s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: buttonfadein 3s; /* Firefox < 16 */
       -ms-animation: buttonfadein 3s; /* Internet Explorer */

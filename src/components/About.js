@@ -33,26 +33,30 @@ const AboutHeader = styled.h1`
   margin-bottom: 5vh;
 `;
 
+const AboutItem = styled.div`
+  text-align: center;
+`;
+
 export default function About() {
   return (
     <AboutContainer id='about'>
       <AboutHeader>About</AboutHeader>
       <Wrapper>
-        <div id='perf'>
+        <AboutItem id='perf'>
           <SpeedIcon />
           <p>Performance</p>
           <p>Emphasis on fast load times and seamless user interaction.</p>
-        </div>
-        <div id='design'>
+        </AboutItem>
+        <AboutItem id='design'>
           <BrushIcon />
           <p>Design</p>
           <p>Intuitive designs that are simple and easy to use.</p>
-        </div>
-        <div id='responsive'>
+        </AboutItem>
+        <AboutItem id='responsive'>
           <ComputerIcon />
           <p>Responsive</p>
           <p>Responsive layouts built to last.</p>
-        </div>
+        </AboutItem>
       </Wrapper>
       <BioContainer>
         <BioTitle>Hi, I'm Lucas. Nice to meet you.</BioTitle>
