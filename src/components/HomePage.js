@@ -13,7 +13,7 @@ const Home = styled.div`
 
 const Welcome = styled.div`
   position: absolute;
-  top: 25%;
+  top: 20%;
   padding: 80px
 `;
 
@@ -29,16 +29,8 @@ export default function HomePage() {
         <Text className='helloFade'>Hello</Text>
         <Text className='nameFade'>I'm <span style={{color: 'red'}}>Lucas Sherwin</span></Text>
         <Text className='fsFade'>I'm a Full Stack Developer</Text>
-        <Button className='buttonFade' style={{height: 55, color: 'red', border: '1px solid red'}} variant='outlined' color='primary' onClick={() => scroller.scrollTo('about', {smooth: true, duration: 1000})}>See my work</Button>
+        <Button className='buttonFade' style={{ color: 'red', border: '1px solid red'}} variant='outlined' color='primary' onClick={() => scroller.scrollTo('about', {smooth: true, duration: 1000})}>See my work</Button>
       </Welcome>
     </Home>
   )
 }
-
-
-// const Button = styled.button`
-//   font-size: 1em;
-//   padding: 0.25em 1em;
-//   border: 2px solid red;
-//   border-radius: 3px;
-// `;
