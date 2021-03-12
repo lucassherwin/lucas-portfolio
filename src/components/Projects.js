@@ -1,8 +1,14 @@
 import React from 'react'
+import styled from 'styled-components';
+
+const ProjectsContainer = styled.div`
+  /* margin-top: 2vh; */
+  background-color: lightgray;
+`;
 
 export default function Projects() {
   return (
-    <div id='projects'>
+    <ProjectsContainer id='projects'>
       <div>
         <div>
           <h1>Under Construction</h1>
@@ -118,6 +124,6 @@ export default function Projects() {
       </article>
       </section>
       </div>
-    </div>
+    </ProjectsContainer>
   )
 }

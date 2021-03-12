@@ -9,6 +9,7 @@ const Home = styled.div`
   text-align: center;
   justify-content: center;
   vertical-align: middle;
+  background-color: lightgray;
 `;
 
 const Welcome = styled.div`

@@ -19,12 +19,13 @@
 
     /* round the edges */
     border-radius: 16px;
-    background: #17141d;
-
+    border: 1px solid lightblue;
+    /* background: #17141d; */
+    background: lightgray;
     /* add shadow */
     /* -1rem puts the shadow on the right side of the box */
     /* this makes the card on the right seem like it is hovering above the card on the left */
-    box-shadow: -1rem 0 3rem #000;
+    box-shadow: -1rem 0 2rem #000;
 
     /* adds a transition for .2 seconds to make the slide up smoother */
     transition: .2s;
