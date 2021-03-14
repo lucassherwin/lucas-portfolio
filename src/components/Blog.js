@@ -2,22 +2,24 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
 
+const CardsContainer = styled.div`
+  display: flex;
+  justify-content: space-around;
+`;
+
 const Card = styled.div`
   border: 1px solid black;
   /* max-width: 50%; */
   margin: 5px;
   padding: 5px;
   box-shadow: -8px 5px 2px black;
-`;
-
-const CardsContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
-
-  ${Card}:hover & {
-    transform: translateY(-1rem);
+  &:hover {
+    transform: translateY(-10px);
   }
+
 `;
+
+
 
 
 export default function Blog() {
