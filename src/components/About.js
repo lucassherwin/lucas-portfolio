@@ -31,9 +31,11 @@ const BioText = styled.p`
 `;
 
 const AboutContainer = styled.div`
+  height: 100vh;
   margin-top: 2vh;
-  border: 1px solid black;
-  background-color: blue;
+  /* border: 1px solid black; */
+  background-color: #f5f5f5;
+  /* background-color: orange; */
 `;
 
 const AboutHeader = styled.h1`
@@ -146,48 +148,3 @@ export default function About() {
     </AboutContainer>
   )
 }
-
-
-
-
-{/* <BioContainer>
-        <BioTitle>Hi, I'm Lucas. Nice to meet you.</BioTitle>
-        <BioText>
-          I am a full-stack software engineer with a background in computer science. I recently graduated from the Flatiron School's Full Stack Development 
-          program and am looking for my first full-time job. Prior to Flatiron, I was a computer science major at Boston University, before leaving school in my junior year
-          to pursure an alternate approach to my education. 
-        </BioText>
-        <BioText>
-          Since graduating, I have been working as a freelance developer completing a variety of projects as well as advancing my education on my own learning technologies
-          such as React Native, Python, and Node.js
-        </BioText>
-      </BioContainer>
-      <BarContainer>
-        <Bar width='90%'>
-          <Skill>ReactJS</Skill>
-        </Bar>
-        <Bar width='80%'>
-          <Skill>HTML</Skill>
-        </Bar>
-        <Bar width='90%'>
-          <Skill>JavaScript</Skill>
-        </Bar>
-        <Bar width='75%'>
-          <Skill>CSS</Skill>
-        </Bar>
-        <Bar width='70%'>
-          <Skill>React Native</Skill>
-        </Bar>
-        <Bar width='80%'>
-          <Skill>Ruby On Rails</Skill>
-        </Bar>
-        <Bar width='80%'>
-          <Skill>Python</Skill>
-        </Bar>
-        <Bar width='50%'>
-          <Skill>Node.js</Skill>
-        </Bar>
-        <Bar width='40%'>
-          <Skill>Java</Skill>
-        </Bar>
-      </BarContainer> */}

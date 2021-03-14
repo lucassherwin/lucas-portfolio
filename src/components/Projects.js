@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const ProjectsContainer = styled.div`
   /* margin-top: 2vh; */
-  background-color: lightgray;
+  /* background-color: lightgray; */
 `;
 
 export default function Projects() {
