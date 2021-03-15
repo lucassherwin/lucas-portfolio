@@ -28,7 +28,6 @@ export default function Projects() {
                 </ul>
               </header>
             </article>
-
             <article className='card'>
               <header className='card-header'>
                 <h1><a href='https://development.d2mm74qlx7gdnj.amplifyapp.com/' target="_blank" rel='noreferrer'>HousandArts</a></h1>

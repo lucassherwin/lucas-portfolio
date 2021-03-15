@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
 
+const BlogSection = styled.div`
+  background-color: #f5f5f5;
+`;
+
 const CardsContainer = styled.div`
   display: flex;
   justify-content: space-around;
@@ -19,9 +23,6 @@ const Card = styled.div`
 
 `;
 
-
-
-
 export default function Blog() {
   const [blogs, setBlogs] = useState(null);
 
@@ -37,7 +38,7 @@ export default function Blog() {
   }
 
   return (
-    <div id='blog'>
+    <BlogSection id='blog'>
       <h1>Blog Page</h1>
       <CardsContainer>
         {
@@ -49,7 +50,7 @@ export default function Blog() {
           )) : <p>Loading...</p>
         }
       </CardsContainer>
-    </div>
+    </BlogSection>
   )
 }
 
