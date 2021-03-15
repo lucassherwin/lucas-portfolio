@@ -2,67 +2,68 @@
 /* https://www.youtube.com/watch?v=29deL9MFfWc */
 
 .card-list {
-    display: flex;
-    padding: 3rem;
-    /* overflow-x: scroll; */
+  display: flex;
+  padding: 3rem;
+  /* overflow-x: scroll; */
 }
 
 /* make each card a column within the card-list row */
 .card {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    height: 350px;
-    width: 400px;
-    min-width: 250px;
-    padding: 1.5rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
 
-    /* round the edges */
-    border-radius: 16px;
-    background: #17141d;
+  /* round the edges */
+  border-radius: 16px;
+  border: 1px solid lightblue;
+  /* background: #17141d; */
+  background: lightgray;
+  /* add shadow */
+  /* -1rem puts the shadow on the right side of the box */
+  /* this makes the card on the right seem like it is hovering above the card on the left */
+  box-shadow: -1rem 0 2rem #000;
 
-    /* add shadow */
-    /* -1rem puts the shadow on the right side of the box */
-    /* this makes the card on the right seem like it is hovering above the card on the left */
-    box-shadow: -1rem 0 3rem #000;
-
-    /* adds a transition for .2 seconds to make the slide up smoother */
-    transition: .2s;
+  /* adds a transition for .2 seconds to make the slide up smoother */
+  transition: .2s;
 }
 
 /* the scrollbar itself */
 .card-list::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
 }
 
 /* what the user drags around */
 .card-list::-webkit-scrollbar-thumb {
-    background: #201c29;
-    border-radius: 10px;
+  background: #201c29;
+  border-radius: 10px;
 
-    /* inset puts the shadow on the inside of the element */
-    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+  /* inset puts the shadow on the inside of the element */
+  box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
 }
 
 .card-list::-webkit-scrollbar-track {
-    background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+  background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
 }
 
 .card:hover {
-    /* moves the hoverd card up */
-    transform: translateY(-1rem);
+  /* moves the hoverd card up */
+  transform: translateY(-1rem);
 }
 
 /* ~ selects all the sibilings AFTER the hovered card */
 .card:hover~.card {
-    /* move other cards to the right */
-    transform: translateX(130px);
+  /* move other cards to the right */
+  transform: translateX(130px);
 }
 
 /* this gets rid of the gap between the cards created by the transform to the right */
 /* gets every card element that is Not the first in the list and sets the margin-left */
 /* this will offset the transformation */
 .card:not(:first-child) {
-    margin-left: -130px;
+  margin-left: -130px;
 }

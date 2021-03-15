@@ -1,14 +1,20 @@
 import React from 'react'
+import styled from 'styled-components';
+
+const ProjectsContainer = styled.div`
+  /* margin-top: 2vh; */
+  /* background-color: lightgray; */
+`;
 
 export default function Projects() {
   return (
-    <div id='projects'>
+    <ProjectsContainer id='projects'>
       <div>
         <div>
           <h1>Under Construction</h1>
-          <section class='card-list'>
-            <article class='card'>
-              <header class='card-header'>
+          <section className='card-list'>
+            <article className='card'>
+              <header className='card-header'>
                 <h1>NHL Fantasy App</h1>
                 <p><a href='https://github.com/lucassherwin/nhl-fantasy-project' target="_blank" rel='noreferrer'>Frontend</a> | <a href='https://github.com/lucassherwin/nhl-fantasy-backend' target="_blank" rel='noreferrer'>Backend</a></p>
                 <ul>
@@ -22,9 +28,8 @@ export default function Projects() {
                 </ul>
               </header>
             </article>
-
-            <article class='card'>
-              <header class='card-header'>
+            <article className='card'>
+              <header className='card-header'>
                 <h1><a href='https://development.d2mm74qlx7gdnj.amplifyapp.com/' target="_blank" rel='noreferrer'>HousandArts</a></h1>
                 <ul>
                   <li>Custom built portfolio site for an artist</li>
@@ -36,8 +41,8 @@ export default function Projects() {
               </header>
             </article>
 
-          <article class='card'>
-            <header class='card-header'>
+          <article className='card'>
+            <header className='card-header'>
               <h1><a href='https://github.com/lucassherwin/advent_of_code_2020_lucas_sherwin' target="_blank" rel='noreferrer'>Advent of Code 2020</a></h1>
               <ul>
                 <li>My participation in the yearly Advent of Code challenge</li>
@@ -51,9 +56,9 @@ export default function Projects() {
     </div>
 
     <h1>Completed Projects</h1>
-    <section class='card-list'>
-      <article class='card'>
-        <header class='card-header'>
+    <section className='card-list'>
+      <article className='card'>
+        <header className='card-header'>
           <h1><a href='https://trivia-game-f5a86.web.app/' target="_blank" rel='noreferrer'>Trivia Game</a></h1>
           <p><a href='https://github.com/lucassherwin/trivia-game--frontend' target="_blank" rel='noreferrer'>Frontend</a> | <a href='https://github.com/lucassherwin/trivia-game--backend' target="_blank" rel='noreferrer'>Backend</a></p>
           <ul>
@@ -64,8 +69,8 @@ export default function Projects() {
         </header>
       </article>
 
-      <article class='card'>
-        <header class='card-header'>
+      <article className='card'>
+        <header className='card-header'>
           <h1><a href='https://github.com/lucassherwin/ClownBot_py' target="_blank" rel='noreferrer'>ClownBot_py</a></h1>
           <ul>
             <li>Discord bot built in Python</li>
@@ -76,8 +81,8 @@ export default function Projects() {
         </header>
       </article>
 
-      <article class='card'>
-        <header class='card-header'>
+      <article className='card'>
+        <header className='card-header'>
           <h1><a href='https://github.com/lucassherwin/BeerBook' target="_blank" rel='noreferrer'>BeerBook</a></h1>
           <ul>
             <li>Fullstack application built fully with Ruby on Rails</li>
@@ -91,8 +96,8 @@ export default function Projects() {
         </header>
       </article>
 
-      <article class='card'>
-        <header class='card-header'>
+      <article className='card'>
+        <header className='card-header'>
           <h1>CLI Weather App</h1>
           <p><a href='https://github.com/lucassherwin/mod-1-weather-project' target="_blank" rel='noreferrer'>Code</a></p>
           <ul>
@@ -103,8 +108,8 @@ export default function Projects() {
         </header>
       </article>
 
-      <article class='card'>
-        <header class='card-header'>
+      <article className='card'>
+        <header className='card-header'>
           <h1>CLI NHL Stats App</h1>
           <p><a href='https://github.com/lucassherwin/mod_1_nhl_stat_project' target="_blank" rel='noreferrer'>Code</a></p>
           <ul>
@@ -118,6 +123,6 @@ export default function Projects() {
       </article>
       </section>
       </div>
-    </div>
+    </ProjectsContainer>
   )
 }
