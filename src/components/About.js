@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 `;
 
 const BioContainer = styled.div`
@@ -48,13 +48,15 @@ const AboutItem = styled.div`
 `;
 
 const Skill = styled.div`
-  background-color: gray;
+  /* text-align: center; */
+  background-color: #04c2c9;
   width: 120px;
   height: 25px;
   padding-left: 2px;
 `;
 
 const BarContainer = styled.div`
+  /* background-color: white; */
   /* display: inline; */
   /* float: left; */
   width: 40%;
@@ -62,22 +64,22 @@ const BarContainer = styled.div`
   margin-right: auto;
   /* margin-top: -200px; */
   /* order: 1; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 `;
 
 const Bar = styled.div`
   max-width: 90%;
   height: 25px;
   width: ${props => props.width};
-  background-color: red;
+  background-color: #00a1a7;
   margin: 10px 0 10px 5px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 `;
 
 const BioSkillsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 `;
 
 
