@@ -13,6 +13,31 @@ export default function Projects() {
         <div>
           <h1>Under Construction</h1>
           <section className='card-list'>
+          <article className='card'>
+              <header className='card-header'>
+                <h1>Tracker</h1>
+                <p><a href='https://github.com/lucassherwin/tracker-frontend' target="_blank" rel='noreferrer'>Frontend</a> | <a href='https://github.com/lucassherwin/Tracker-backend' target="_blank" rel='noreferrer'>Backend</a></p>
+                <ul>
+                  <li>React Native app using a Node.js backend with MongoDB</li>
+                  <li>App allows users to securely create an account that is saved in a MongoDB</li>
+                  <li>Once the user has an account, they can create a Track</li>
+                  <li>The Track will track their location as they walk and display their route on a map</li>T
+                  <li>The user can then save this Track in the database</li>
+                </ul>
+              </header>
+            </article>
+            <article className='card'>
+              <header className='card-header'>
+                <h1><a href='https://housandarts-96836.web.app/' target="_blank" rel='noreferrer'>HousandArts</a></h1>
+                <p><a href='https://github.com/lucassherwin/housandarts_2' target="_blank" rel='noreferrer'>Frontend</a></p>
+                <ul>
+                  <li>Portfolio site with custom CMS for an artist</li>
+                  <li>Clicking on an image will bring the user to a page showing more details about that image</li>
+                  <li>The site owner can upload new images with details such as title and description</li>
+                  <li>The site uses Cloud Firestore to store data about the images and Firebase storage for the actual images</li>
+                </ul>
+              </header>
+            </article>
             <article className='card'>
               <header className='card-header'>
                 <h1>NHL Fantasy App</h1>
@@ -28,19 +53,6 @@ export default function Projects() {
                 </ul>
               </header>
             </article>
-            <article className='card'>
-              <header className='card-header'>
-                <h1><a href='https://development.d2mm74qlx7gdnj.amplifyapp.com/' target="_blank" rel='noreferrer'>HousandArts</a></h1>
-                <ul>
-                  <li>Custom built portfolio site for an artist</li>
-                  <li>Clicking on an image will bring the user to a page showing more details about that image</li>
-                  <li>The site owner can upload new images with details such as title and description</li>
-                  <li>Built with a React frontend and a Ruby on Rails backend using Active Storage to store images in the database</li>
-                  <li>Images may take a few moments to load</li>
-                </ul>
-              </header>
-            </article>
-
           <article className='card'>
             <header className='card-header'>
               <h1><a href='https://github.com/lucassherwin/advent_of_code_2020_lucas_sherwin' target="_blank" rel='noreferrer'>Advent of Code 2020</a></h1>
