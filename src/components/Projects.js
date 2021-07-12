@@ -6,35 +6,31 @@ const ProjectsContainer = styled.div`
   /* background-color: lightgray; */
 `;
 
+const ProjectsHeader = styled.h1`
+  text-align: center;
+`
+
+const SectionLabel = styled.h2`
+  margin-left: 20px;
+`
+
 export default function Projects() {
   return (
     <ProjectsContainer id='projects'>
       <div>
         <div>
-          <h1>Under Construction</h1>
+          <ProjectsHeader>Projects</ProjectsHeader>
+          <SectionLabel>Under Construction</SectionLabel>
           <section className='card-list'>
           <article className='card'>
               <header className='card-header'>
-                <h1>Tracker</h1>
-                <p><a href='https://github.com/lucassherwin/tracker-frontend' target="_blank" rel='noreferrer'>Frontend</a> | <a href='https://github.com/lucassherwin/Tracker-backend' target="_blank" rel='noreferrer'>Backend</a></p>
+                <h1>MyJST</h1>
+                <p><a href='https://github.com/lucassherwin/MyJST' target="_blank" rel='noreferrer'>Source</a></p>
                 <ul>
-                  <li>React Native app using a Node.js backend with MongoDB</li>
-                  <li>App allows users to securely create an account that is saved in a MongoDB</li>
-                  <li>Once the user has an account, they can create a Track</li>
-                  <li>The Track will track their location as they walk and display their route on a map</li>T
-                  <li>The user can then save this Track in the database</li>
-                </ul>
-              </header>
-            </article>
-            <article className='card'>
-              <header className='card-header'>
-                <h1><a href='https://housandarts-96836.web.app/' target="_blank" rel='noreferrer'>HousandArts</a></h1>
-                <p><a href='https://github.com/lucassherwin/housandarts_2' target="_blank" rel='noreferrer'>Frontend</a></p>
-                <ul>
-                  <li>Portfolio site with custom CMS for an artist</li>
-                  <li>Clicking on an image will bring the user to a page showing more details about that image</li>
-                  <li>The site owner can upload new images with details such as title and description</li>
-                  <li>The site uses Cloud Firestore to store data about the images and Firebase storage for the actual images</li>
+                  <li>Ruby on Rails and React based job search tracker</li>
+                  <li>Allows user to track what jobs they have applied for</li>
+                  <li>Track the status of each application</li>
+                  <li>ToDo list to help stay organized</li>
                 </ul>
               </header>
             </article>
@@ -53,7 +49,19 @@ export default function Projects() {
                 </ul>
               </header>
             </article>
-          <article className='card'>
+            {/* <article className='card'>
+              <header className='card-header'>
+                <h1><a href='https://housandarts-96836.web.app/' target="_blank" rel='noreferrer'>HousandArts</a></h1>
+                <p><a href='https://github.com/lucassherwin/housandarts_2' target="_blank" rel='noreferrer'>Frontend</a></p>
+                <ul>
+                  <li>Portfolio site with custom CMS for an artist</li>
+                  <li>Clicking on an image will bring the user to a page showing more details about that image</li>
+                  <li>The site owner can upload new images with details such as title and description</li>
+                  <li>The site uses Cloud Firestore to store data about the images and Firebase storage for the actual images</li>
+                </ul>
+              </header>
+            </article> */}
+          {/* <article className='card'>
             <header className='card-header'>
               <h1><a href='https://github.com/lucassherwin/advent_of_code_2020_lucas_sherwin' target="_blank" rel='noreferrer'>Advent of Code 2020</a></h1>
               <ul>
@@ -63,12 +71,25 @@ export default function Projects() {
                 <li>Done fully in Python</li>
               </ul>
             </header>
-          </article>
+          </article> */}
         </section>
     </div>
 
-    <h1>Completed Projects</h1>
+    <SectionLabel>Completed Projects</SectionLabel>
     <section className='card-list'>
+      <article className='card'>
+        <header className='card-header'>
+          <h1>Tracker</h1>
+          <p><a href='https://github.com/lucassherwin/tracker-frontend' target="_blank" rel='noreferrer'>Frontend</a> | <a href='https://github.com/lucassherwin/Tracker-backend' target="_blank" rel='noreferrer'>Backend</a></p>
+          <ul>
+            <li>React Native app using a Node.js backend with MongoDB</li>
+            <li>App allows users to securely create an account that is saved in a MongoDB</li>
+            <li>Once the user has an account, they can create a Track</li>
+            <li>The Track will track their location as they walk and display their route on a map</li>T
+            <li>The user can then save this Track in the database</li>
+          </ul>
+        </header>
+      </article>
       <article className='card'>
         <header className='card-header'>
           <h1><a href='https://trivia-game-f5a86.web.app/' target="_blank" rel='noreferrer'>Trivia Game</a></h1>
