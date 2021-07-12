@@ -27,7 +27,8 @@ const BioTitle = styled.h2`
 
 const BioText = styled.p`
   text-align: left;
-  line-height: 5.5vh
+  line-height: 5.5vh;
+  margin-right: 50px;
 `;
 
 const AboutContainer = styled.div`
@@ -62,6 +63,7 @@ const BarContainer = styled.div`
   width: 40%;
   /* margin: 10px; */
   margin-right: auto;
+  margin-left: 20px;
   /* margin-top: -200px; */
   /* order: 1; */
   /* border: 1px solid red; */
