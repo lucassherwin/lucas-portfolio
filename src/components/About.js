@@ -128,6 +128,12 @@ export default function About() {
           <Skill>ReactJS</Skill>
         </Bar>
         <Bar width='80%'>
+          <Skill>Ruby On Rails</Skill>
+        </Bar>
+        <Bar width='60%'>
+          <Skill>RSpec</Skill>
+        </Bar>
+        <Bar width='80%'>
           <Skill>HTML</Skill>
         </Bar>
         <Bar width='90%'>
@@ -138,9 +144,6 @@ export default function About() {
         </Bar>
         <Bar width='70%'>
           <Skill>React Native</Skill>
-        </Bar>
-        <Bar width='80%'>
-          <Skill>Ruby On Rails</Skill>
         </Bar>
         <Bar width='80%'>
           <Skill>Python</Skill>
