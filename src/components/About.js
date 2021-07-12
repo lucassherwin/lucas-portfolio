@@ -109,12 +109,16 @@ export default function About() {
           <BioTitle>Hi, I'm Lucas. Nice to meet you.</BioTitle>
           <BioText>
             I am a full-stack software engineer with a background in computer science. I recently graduated from the Flatiron School's Full Stack Development 
-            program and am looking for my first full-time job. Prior to Flatiron, I was a computer science major at Boston University, before leaving school in my junior year
+            program. Prior to Flatiron, I was a computer science major at Boston University, before leaving school in my junior year
             to pursure an alternate approach to my education. 
           </BioText>
           <BioText>
-            Since graduating, I have been working as a freelance developer completing a variety of projects as well as advancing my education on my own learning technologies
-            such as React Native, Python, and Node.js
+            My most recent work expereince was with SpringBig as a junior developer. There I worked on a small team primarily handling bug fixes and feature updates.
+            I worked mainly in the Ruby on Rails backend, occasionally tackling frontend updates, and creating and updating AWS lambdas. The technologies I worked with were
+            Ruby on Rails and RSpec for the backend, Vue for the frontend, and JavaScript for the lambdas.  
+          </BioText>
+          <BioText>
+            I am currently looking for my next full time position. Feel free to contact me and lets create something!
           </BioText>
         </BioContainer>
       <BarContainer>
