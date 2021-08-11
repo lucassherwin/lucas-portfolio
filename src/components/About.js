@@ -115,7 +115,7 @@ export default function About() {
             to pursure an alternate approach to my education. 
           </BioText>
           <BioText>
-            My most recent work expereince was with SpringBig as a junior developer. There I worked on a small team primarily handling bug fixes and feature updates.
+            My most recent work expereince was with SpringBig as a junior developer. At SpringBig, I worked on a small team primarily handling bug fixes and feature updates.
             I worked mainly in the Ruby on Rails backend, occasionally tackling frontend updates, and creating and updating AWS lambdas. The technologies I worked with were
             Ruby on Rails and RSpec for the backend, Vue for the frontend, and JavaScript for the lambdas.  
           </BioText>
@@ -127,17 +127,14 @@ export default function About() {
         <Bar width='90%'>
           <Skill>ReactJS</Skill>
         </Bar>
+        <Bar width='90%'>
+          <Skill>JavaScript</Skill>
+        </Bar>
         <Bar width='80%'>
           <Skill>Ruby On Rails</Skill>
         </Bar>
-        <Bar width='60%'>
-          <Skill>RSpec</Skill>
-        </Bar>
         <Bar width='80%'>
           <Skill>HTML</Skill>
-        </Bar>
-        <Bar width='90%'>
-          <Skill>JavaScript</Skill>
         </Bar>
         <Bar width='75%'>
           <Skill>CSS</Skill>
@@ -145,8 +142,14 @@ export default function About() {
         <Bar width='70%'>
           <Skill>React Native</Skill>
         </Bar>
-        <Bar width='80%'>
+        <Bar width='70%'>
+          <Skill>Vue</Skill>
+        </Bar>
+        <Bar width='70%'>
           <Skill>Python</Skill>
+        </Bar>
+        <Bar width='60%'>
+          <Skill>RSpec</Skill>
         </Bar>
         <Bar width='50%'>
           <Skill>Node.js</Skill>
