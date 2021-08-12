@@ -27,9 +27,9 @@ export default function Projects() {
                 <h1>MyJST</h1>
                 <p><a href='https://github.com/lucassherwin/MyJST' target="_blank" rel='noreferrer'>Source</a></p>
                 <ul>
-                  <li>Ruby on Rails and React based job search tracker</li>
-                  <li>Allows user to track what jobs they have applied for</li>
-                  <li>Track the status of each application</li>
+                  <li>Ruby on Rails and Vue based job search tracker</li>
+                  <li>Allows user to track what jobs they have applied to</li>
+                  <li>Each job can have a different status representing the status of the application</li>
                   <li>ToDo list to help stay organized</li>
                 </ul>
               </header>
