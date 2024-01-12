@@ -24,10 +24,10 @@ const BioText = styled.p`
   text-align: left;
   line-height: 5.5vh;
   margin-right: 50px;
+  max-width: 80%;
 `;
 
 const AboutContainer = styled.div`
-  height: 100vh;
   margin-top: 2vh;
   background-color: #f5f5f5;
 `;
@@ -45,7 +45,9 @@ const Skill = styled.div`
   background-color: #04c2c9;
   width: 120px;
   height: 25px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const BarContainer = styled.div`
@@ -64,9 +66,15 @@ const Bar = styled.div`
 
 const BioSkillsWrapper = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 `;
 
+const JobHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+`
 
 export default function About() {
   return (
@@ -97,14 +105,29 @@ export default function About() {
             program. Prior to Flatiron, I was a computer science major at Boston University, before leaving school in my junior year
             to pursure an alternate approach to my education. 
           </BioText>
-          <BioText>
-            My most recent work expereince was with SpringBig as a junior developer. At SpringBig, I worked on a small team primarily handling bug fixes and feature updates.
-            I worked mainly in the Ruby on Rails backend, occasionally tackling frontend updates, and creating and updating AWS lambdas. The technologies I worked with were
-            Ruby on Rails and RSpec for the backend, Vue for the frontend, and JavaScript for the lambdas.  
-          </BioText>
-          <BioText>
-            I am currently looking for my next full time position. Feel free to contact me and lets create something!
-          </BioText>
+          <BioTitle>Work Experience</BioTitle>
+          <ul>
+            <li>
+              <JobHeader>
+                <span>Lendbuzz - Full Stack Engineer</span>
+                <span>2021 - Current</span>
+              </JobHeader>
+              <BioText>
+                Memeber of the frontend team to maintain existing code as well as build new features using the latest technologies. Responsible for two full stack React/Ruby on Rails web apps.<br/>
+                Currently working with the payments squad focusing on the user facing borrower portal and the admin payments dashboard. 
+              </BioText>
+            </li>
+            <li>
+              <JobHeader>
+                <span>SpringBig - Junior Developer</span>
+                <span>04/2021 - 07/2021</span>
+              </JobHeader>
+              <BioText>
+                Worked on a small team in a fast paced agile environment to implement feature updates and bug fixes with accompanying unit tests for a Ruby on Rails and Vue based web app.
+                Assisted with integration of third party API's
+              </BioText>
+            </li>
+          </ul>
         </BioContainer>
       <BarContainer>
         <Bar width='90%'>
