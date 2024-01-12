@@ -53,7 +53,3 @@ export default function Blog() {
     </BlogSection>
   )
 }
-
-// setBlogs(resp.data.items)
-
-// onClick={window.open()}

@@ -2,8 +2,6 @@ import React from 'react'
 import styled from 'styled-components';
 
 const ProjectsContainer = styled.div`
-  /* margin-top: 2vh; */
-  /* background-color: lightgray; */
 `;
 
 const ProjectsHeader = styled.h1`
@@ -62,29 +60,6 @@ export default function Projects() {
                 </ul>
               </header>
             </article>
-            {/* <article className='card'>
-              <header className='card-header'>
-                <h1><a href='https://housandarts-96836.web.app/' target="_blank" rel='noreferrer'>HousandArts</a></h1>
-                <p><a href='https://github.com/lucassherwin/housandarts_2' target="_blank" rel='noreferrer'>Frontend</a></p>
-                <ul>
-                  <li>Portfolio site with custom CMS for an artist</li>
-                  <li>Clicking on an image will bring the user to a page showing more details about that image</li>
-                  <li>The site owner can upload new images with details such as title and description</li>
-                  <li>The site uses Cloud Firestore to store data about the images and Firebase storage for the actual images</li>
-                </ul>
-              </header>
-            </article> */}
-          {/* <article className='card'>
-            <header className='card-header'>
-              <h1><a href='https://github.com/lucassherwin/advent_of_code_2020_lucas_sherwin' target="_blank" rel='noreferrer'>Advent of Code 2020</a></h1>
-              <ul>
-                <li>My participation in the yearly Advent of Code challenge</li>
-                <li>This is a yearly puzzle put out for developers to put their problem solving skills to the test to find unique solutions to daily puzzles</li>
-                <li>Currently under construction as not all days are complete yet (one day...)</li>
-                <li>Done fully in Python</li>
-              </ul>
-            </header>
-          </article> */}
         </section>
     </div>
 

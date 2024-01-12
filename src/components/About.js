@@ -8,16 +8,11 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* border: 1px solid red; */
 `;
 
 const BioContainer = styled.div`
-  /* padding: 0 4vw 0 4vw; */
-  /* display: flex; */
-  /* float: right; */
   margin-left: auto;
   width: 49%;
-  /* margin: 5px; */
   order: 2;
 `;
 
@@ -34,9 +29,7 @@ const BioText = styled.p`
 const AboutContainer = styled.div`
   height: 100vh;
   margin-top: 2vh;
-  /* border: 1px solid black; */
   background-color: #f5f5f5;
-  /* background-color: orange; */
 `;
 
 const AboutHeader = styled.h1`
@@ -49,24 +42,16 @@ const AboutItem = styled.div`
 `;
 
 const Skill = styled.div`
-  /* text-align: center; */
   background-color: #04c2c9;
   width: 120px;
   height: 25px;
-  padding-left: 2px;
+  text-align: center;
 `;
 
 const BarContainer = styled.div`
-  /* background-color: white; */
-  /* display: inline; */
-  /* float: left; */
   width: 40%;
-  /* margin: 10px; */
   margin-right: auto;
   margin-left: 20px;
-  /* margin-top: -200px; */
-  /* order: 1; */
-  /* border: 1px solid red; */
 `;
 
 const Bar = styled.div`
@@ -75,13 +60,11 @@ const Bar = styled.div`
   width: ${props => props.width};
   background-color: #00a1a7;
   margin: 10px 0 10px 5px;
-  /* border: 1px solid black; */
 `;
 
 const BioSkillsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid green; */
 `;
 
 
