@@ -8,16 +8,11 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* border: 1px solid red; */
 `;
 
 const BioContainer = styled.div`
-  /* padding: 0 4vw 0 4vw; */
-  /* display: flex; */
-  /* float: right; */
   margin-left: auto;
   width: 49%;
-  /* margin: 5px; */
   order: 2;
 `;
 
@@ -29,14 +24,12 @@ const BioText = styled.p`
   text-align: left;
   line-height: 5.5vh;
   margin-right: 50px;
+  max-width: 80%;
 `;
 
 const AboutContainer = styled.div`
-  height: 100vh;
   margin-top: 2vh;
-  /* border: 1px solid black; */
   background-color: #f5f5f5;
-  /* background-color: orange; */
 `;
 
 const AboutHeader = styled.h1`
@@ -49,24 +42,18 @@ const AboutItem = styled.div`
 `;
 
 const Skill = styled.div`
-  /* text-align: center; */
   background-color: #04c2c9;
   width: 120px;
   height: 25px;
-  padding-left: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const BarContainer = styled.div`
-  /* background-color: white; */
-  /* display: inline; */
-  /* float: left; */
   width: 40%;
-  /* margin: 10px; */
   margin-right: auto;
   margin-left: 20px;
-  /* margin-top: -200px; */
-  /* order: 1; */
-  /* border: 1px solid red; */
 `;
 
 const Bar = styled.div`
@@ -75,15 +62,19 @@ const Bar = styled.div`
   width: ${props => props.width};
   background-color: #00a1a7;
   margin: 10px 0 10px 5px;
-  /* border: 1px solid black; */
 `;
 
 const BioSkillsWrapper = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  /* border: 1px solid green; */
 `;
 
+const JobHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+`
 
 export default function About() {
   return (
@@ -114,27 +105,53 @@ export default function About() {
             program. Prior to Flatiron, I was a computer science major at Boston University, before leaving school in my junior year
             to pursure an alternate approach to my education. 
           </BioText>
-          <BioText>
-            My most recent work expereince was with SpringBig as a junior developer. At SpringBig, I worked on a small team primarily handling bug fixes and feature updates.
-            I worked mainly in the Ruby on Rails backend, occasionally tackling frontend updates, and creating and updating AWS lambdas. The technologies I worked with were
-            Ruby on Rails and RSpec for the backend, Vue for the frontend, and JavaScript for the lambdas.  
-          </BioText>
-          <BioText>
-            I am currently looking for my next full time position. Feel free to contact me and lets create something!
-          </BioText>
+          <BioTitle>Work Experience</BioTitle>
+          <ul>
+            <li>
+              <JobHeader>
+                <span>Lendbuzz - Full Stack Engineer</span>
+                <span>2021 - Current</span>
+              </JobHeader>
+              <BioText>
+                Memeber of the frontend team to maintain existing code as well as build new features using the latest technologies. Responsible for two full stack React/Ruby on Rails web apps.<br/>
+                Currently working with the payments squad focusing on the user facing borrower portal and the admin payments dashboard. 
+              </BioText>
+              <BioText>
+                <div>Projects</div>
+                <ul>
+                  <li>
+                    Login With Phone Number (React, Ruby on Rails, NestJS): A full stack project building a custom solution to allow borrowers to log into their account with a phone number. Worked closely with the backend team over several months to ensure smooth deployment and customer experience.
+                  </li>
+                  <li>
+                    GPS Pages (Ruby on Rails, React): Worked closely with a backend engineer to update existing GPS pages and build new functionality making it easier for dealers to install and maintain GPS devices on sold vehicles.
+                  </li>
+                  <li>
+                    Compliance Documents Page (Ruby on Rails, React): Rebuilt a page used commonly by our internal compliance team to batch download documents from many different loans. This page was built with React and Ruby on Rails and is used daily by our compliance team.
+                  </li>
+                </ul>
+              </BioText>
+            </li>
+            <li>
+              <JobHeader>
+                <span>SpringBig - Junior Developer</span>
+                <span>04/2021 - 07/2021</span>
+              </JobHeader>
+              <BioText>
+                Worked on a small team in a fast paced agile environment to implement feature updates and bug fixes with accompanying unit tests for a Ruby on Rails and Vue based web app.
+                Assisted with integration of third party API's
+              </BioText>
+            </li>
+          </ul>
         </BioContainer>
       <BarContainer>
         <Bar width='90%'>
           <Skill>ReactJS</Skill>
         </Bar>
         <Bar width='90%'>
-          <Skill>JavaScript</Skill>
-        </Bar>
-        <Bar width='80%'>
           <Skill>Ruby On Rails</Skill>
         </Bar>
-        <Bar width='80%'>
-          <Skill>HTML</Skill>
+        <Bar width='90%'>
+          <Skill>JavaScript</Skill>
         </Bar>
         <Bar width='75%'>
           <Skill>CSS</Skill>
@@ -143,19 +160,16 @@ export default function About() {
           <Skill>React Native</Skill>
         </Bar>
         <Bar width='70%'>
-          <Skill>Vue</Skill>
+          <Skill>Typescript</Skill>
         </Bar>
-        <Bar width='70%'>
+        <Bar width='60%'>
           <Skill>Python</Skill>
         </Bar>
         <Bar width='60%'>
-          <Skill>RSpec</Skill>
-        </Bar>
-        <Bar width='50%'>
-          <Skill>Node.js</Skill>
+          <Skill>NestJS</Skill>
         </Bar>
         <Bar width='40%'>
-          <Skill>Java</Skill>
+          <Skill>Vue</Skill>
         </Bar>
       </BarContainer>
       </BioSkillsWrapper>

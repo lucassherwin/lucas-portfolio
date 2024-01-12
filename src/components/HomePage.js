@@ -5,12 +5,10 @@ import { Button } from '@material-ui/core';
 
 const Home = styled.div`
   height: 100vh;
-  /* height: 100%; */
   display: flex;
   text-align: center;
   justify-content: center;
   vertical-align: middle;
-  /* background-color: lightgray; */
 `;
 
 const Welcome = styled.div`

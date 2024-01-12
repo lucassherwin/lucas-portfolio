@@ -4,10 +4,8 @@ import styled from 'styled-components';
 
 export default function Navbar() {
   const Nav = styled.nav`
-    /* position: absolute; */
-    /* top: 0; */
   `;
-  
+
   const link = {
     width: '100px',
     padding: '8px',
@@ -16,7 +14,7 @@ export default function Navbar() {
     textDecoration: 'none',
     color: 'white',
   }
-  
+
   return (
     <Nav className='navbar'>
       <Link activeClass='active' to="home" spy={true} smooth={true} style={link} duration={1000}>Home</Link>
@@ -26,8 +24,3 @@ export default function Navbar() {
     </Nav>
   )
 }
-
-// <NavLink to="/" exact style={link} activeStyle={{background: 'darkblue'}}>Home</NavLink>
-// <NavLink to='/projects' exact style={link} activeStyle={{background: 'darkblue'}}>Projects</NavLink>
-// <NavLink to='/about' exact style={link} activeStyle={{background: 'darkblue'}}>About Me</NavLink>
-// <NavLink to="/blog" exact style={link} activeStyle={{background: 'darkblue'}}>Blog</NavLink>
