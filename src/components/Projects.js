@@ -19,6 +19,17 @@ export default function Projects() {
       <section className='card-list'>
         <article className='card'>
           <header className='card-header'>
+            <h1><a href='https://github.com/lucassherwin/ClownBot_py' target="_blank" rel='noreferrer'>ClownBot_py</a></h1>
+            <ul>
+              <li>Discord bot built in Python</li>
+              <li>Keeps track of "clowns" in a discord server</li>
+              <li>When a user reacts with the clown emoji (🤡) the message senders "clown score" goes up by one and increases for each subsequent reaction</li>
+              <li>The leaderboard can be shown with the "!clowns" command</li>
+            </ul>
+          </header>
+        </article>
+        <article className='card'>
+          <header className='card-header'>
             <h1>Tracker</h1>
             <p><a href='https://github.com/lucassherwin/tracker-frontend' target="_blank" rel='noreferrer'>Frontend</a> | <a href='https://github.com/lucassherwin/Tracker-backend' target="_blank" rel='noreferrer'>Backend</a></p>
             <ul>

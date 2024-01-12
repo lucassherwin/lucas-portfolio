@@ -116,6 +116,20 @@ export default function About() {
                 Memeber of the frontend team to maintain existing code as well as build new features using the latest technologies. Responsible for two full stack React/Ruby on Rails web apps.<br/>
                 Currently working with the payments squad focusing on the user facing borrower portal and the admin payments dashboard. 
               </BioText>
+              <BioText>
+                <div>Projects</div>
+                <ul>
+                  <li>
+                    Login With Phone Number (React, Ruby on Rails, NestJS): A full stack project building a custom solution to allow borrowers to log into their account with a phone number. Worked closely with the backend team over several months to ensure smooth deployment and customer experience.
+                  </li>
+                  <li>
+                    GPS Pages (Ruby on Rails, React): Worked closely with a backend engineer to update existing GPS pages and build new functionality making it easier for dealers to install and maintain GPS devices on sold vehicles.
+                  </li>
+                  <li>
+                    Compliance Documents Page (Ruby on Rails, React): Rebuilt a page used commonly by our internal compliance team to batch download documents from many different loans. This page was built with React and Ruby on Rails and is used daily by our compliance team.
+                  </li>
+                </ul>
+              </BioText>
             </li>
             <li>
               <JobHeader>
@@ -134,13 +148,10 @@ export default function About() {
           <Skill>ReactJS</Skill>
         </Bar>
         <Bar width='90%'>
-          <Skill>JavaScript</Skill>
-        </Bar>
-        <Bar width='80%'>
           <Skill>Ruby On Rails</Skill>
         </Bar>
-        <Bar width='80%'>
-          <Skill>HTML</Skill>
+        <Bar width='90%'>
+          <Skill>JavaScript</Skill>
         </Bar>
         <Bar width='75%'>
           <Skill>CSS</Skill>
@@ -149,19 +160,16 @@ export default function About() {
           <Skill>React Native</Skill>
         </Bar>
         <Bar width='70%'>
-          <Skill>Vue</Skill>
+          <Skill>Typescript</Skill>
         </Bar>
-        <Bar width='70%'>
+        <Bar width='60%'>
           <Skill>Python</Skill>
         </Bar>
         <Bar width='60%'>
-          <Skill>RSpec</Skill>
-        </Bar>
-        <Bar width='50%'>
-          <Skill>Node.js</Skill>
+          <Skill>NestJS</Skill>
         </Bar>
         <Bar width='40%'>
-          <Skill>Java</Skill>
+          <Skill>Vue</Skill>
         </Bar>
       </BarContainer>
       </BioSkillsWrapper>

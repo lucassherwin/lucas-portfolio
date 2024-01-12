@@ -13,14 +13,16 @@ const CardsContainer = styled.div`
 
 const Card = styled.div`
   border: 1px solid black;
-  /* max-width: 50%; */
   margin: 5px;
   padding: 5px;
   box-shadow: -8px 5px 2px black;
   &:hover {
     transform: translateY(-10px);
   }
+`;
 
+const Header = styled.h1`
+  text-align: center;
 `;
 
 export default function Blog() {
@@ -39,7 +41,7 @@ export default function Blog() {
 
   return (
     <BlogSection id='blog'>
-      <h1>Blog Page</h1>
+      <Header>Blog Page</Header>
       <CardsContainer>
         {
           blogs ? blogs.map((blog) => (
